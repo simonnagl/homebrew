@@ -2,16 +2,16 @@
 class Spell < Formula
   desc "spell word(s) using a spelling alphabet."
   homepage ""
-  version "0.3.1"
+  version "0.4.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/simonnagl/spell/releases/download/v0.3.1/spell_0.3.1_Darwin_x86_64.tar.gz"
-    sha256 "64c4bf33b949c66da95f02a9b61392ec6048a4c5889b57d4fe6e420ab955ad3c"
+    url "https://github.com/simonnagl/spell/releases/download/v0.4.0/spell_0.4.0_Darwin_x86_64.tar.gz"
+    sha256 "20dc52f3a5a61dc724b76d304e7f3c5b5bf76870f03ba974b43bac04f9f9e040"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/simonnagl/spell/releases/download/v0.3.1/spell_0.3.1_Linux_x86_64.tar.gz"
-      sha256 "36cc097715d2a28d19e64126c55db603d30fa83cf9c45280163a4eff118a128f"
+      url "https://github.com/simonnagl/spell/releases/download/v0.4.0/spell_0.4.0_Linux_x86_64.tar.gz"
+      sha256 "31b7d8eea4ccc026680a3d9acc7ed6a4bb13fdd0d8f508aef11cbfe4ce605671"
     end
   end
 
